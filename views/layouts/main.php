@@ -40,7 +40,8 @@ AppAsset::register($this);
             <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/about.html">Về WGH <span class="sr-only"></span></a>
+                        <!-- <a class="nav-link" href="">Về WGH <span class="sr-only"></span></a> -->
+                        <?=Html::a('Về WGH' , \yii\helpers\Url::toRoute(['/system']),['title' => 'Về WGH', 'class' => 'nav-link']) ?> 
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="./ecoSystem.html">
