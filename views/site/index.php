@@ -2,7 +2,7 @@
 
 /** @var yii\web\View $this */
 
-$this->title = 'My Yii Application';
+$this->title = 'Trang chủ';
 ?>
 <div data-aos="fade-up" data-aos-duration="1500" style="margin-top: 38px;" class="container-fluid p-0 py-5">
     <div id="sliderCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
@@ -427,3 +427,4 @@ $this->title = 'My Yii Application';
     </button>
 </section>
 <!-- Xem them -->
+
