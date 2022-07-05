@@ -52,6 +52,7 @@ $config = [
             //'enaleStrictParsing' => true,
             'rules' => [
                  'about' => 'site/about',
+                 'news' => 'html/news',
             ],
         ],
         
