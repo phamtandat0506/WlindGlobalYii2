@@ -4,7 +4,7 @@
 
 <header>
         <nav data-aos="fade-up" data-aos-duration="1500" style="box-shadow: 0 2px 5px #ccc; width: 100vw; min-height: 90px;" class="navbar navbar-expand-lg navbar-dark my-bg px-5 font-weight-bold fixed-top">
-            <a class="navbar-brand d-flex align-items-center" href="/index.html" style="width:20%; height: 100%; min-width: 100px; max-height: 60px;">
+            <a class="navbar-brand d-flex align-items-center" href=<?='home'?> style="width:20%; height: 100%; min-width: 100px; max-height: 60px;">
                 <img src="assets/Images/Asset.png" alt="logo" style="width:100%;max-width: 150px; max-height: 60px;" />
             </a>
 

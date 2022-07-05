@@ -51,7 +51,9 @@ $config = [
             //'suffix' => '.html',
             //'enaleStrictParsing' => true,
             'rules' => [
-                 'about' => 'site/about',
+                'home' => 'site/index',
+                'about' => 'site/about',
+                'news' => 'html/news',
             ],
         ],
         

@@ -79,32 +79,33 @@ $(document).ready(function() {
             autoplaySpeed: 2000,
         });
 
-        $(".member-slick-slider").slick({
-            slidesToShow: 3,
+        $(".hst-slick-slider").slick({
+            slidesToShow: 6,
             slidesToScroll: 1,
-            infinite: true,
+            infinite: false,
             arrows: true,
             draggable: false,
-            prevArrow: `<button type='button' class='member-slick-prev member-slick-arrow'><i class="fas fa-chevron-left"></i></button>`,
-            nextArrow: `<button type='button' class='member-slick-next member-slick-arrow'><i class="fas fa-chevron-right"></i></button>`,
-            dots: true,
-            responsive: [{
+            prevArrow: `<button type='button' class='hst-slick-prev hst-slick-arrow'><i class="fas fa-chevron-left"></i></button>`,
+            nextArrow: `<button type='button' class='hst-slick-next hst-slick-arrow'><i class="fas fa-chevron-right"></i></button>`,
+            // dots: true,
+            responsive: [
+                {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 4,
                     },
                 },
                 {
                     breakpoint: 768,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                     },
                 },
             ],
             speed: 1200,
-            autoplay: true,
-            autoplaySpeed: 2000,
+
         });
+
     });
 </script>
 </html>
