@@ -47,18 +47,20 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+
             //'suffix' => '.html',
             //'enaleStrictParsing' => true,
             'rules' => [
-                // '' => 'home/index',
-                'News'=>'site/news',
-                // 'abc' => 'site/index',
+                'home' => 'site/index',
+                'about' => 'site/about',
+                'news' => 'html/news',
             ],
         ],
         
     ],
     'params' => $params,
 ];
+
 
 // if (YII_ENV_DEV) {
 //     // configuration adjustments for 'dev' environment
@@ -76,5 +78,6 @@ $config = [
 //         //'allowedIPs' => ['127.0.0.1', '::1'],
 //     ];
 // }
+
 
 return $config;
