@@ -9,7 +9,7 @@ $this->title = "Tin Tức";
             <ol class="breadcrumb bg-transparent arr-right">
                 <li class="breadcrumb-item"><a href="./index.html">Trang chủ</a></li>
                 <li class="breadcrumb-item active" aria-current="page">
-                    <a href=""><?=$this->title?></a>
+                    <a href="#">Tiêu điểm</a>
                 </li>
             </ol>
         </nav>
@@ -24,7 +24,7 @@ $this->title = "Tin Tức";
     </div>
 
     <div class="row">
-        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 mb-5">
+        <div class="col-md-5 mb-5">
             <div class="d-flex flex-column">
                 <img src="https://www.wlin.com.vn/images/poster_chut.jpg" class="news-img w-100 rounded" style="width: 574px; height: 344px" alt="..." />
                 <h6 class="mt-2">
@@ -38,62 +38,62 @@ $this->title = "Tin Tức";
                     đã ký kết trở thành nhà đầu tư vòng Co Founders
                 </span>
 
-                <button type="button" class="btn btn-view btn-linear  ml-4 mt-2">
+                <button type="button" class="btn btn-view btn-dark  ml-4 mt-2">
                     Xem chi tiết
                 </button>
             </div>
         </div>
 
-        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 ">
-            <div class="row d-flex flex-row mb-3">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <div class="col-md-7">
+            <div class="d-flex flex-row mb-3">
+                <div>
                     <img src="https://www.wlin.com.vn/images/images/Hoa%20h%E1%BA%ADu%20Ho%C3%A0ng%20Y%E1%BA%BFn-05%20(1).jpg" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
                 </div>
 
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 d-flex flex-column">
+                <div class="d-flex flex-column ml-3">
                     <h6 class="mt-2">
                         Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
                         nhân văn ở WLIN Global Holdings (WGH)”
                     </h6>
                     <span class="mt-2" style="font-size: 13px; font-weight: 400;">15/06/2022</span>
 
-                    <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
+                    <button type="button" class="btn btn-view btn-dark ml-4 mt-2" style="width: 110px">
                         Xem chi tiết
                     </button>
                 </div>
             </div>
 
-            <div class="row d-flex flex-row mb-3">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="d-flex flex-row mb-3">
+                <div>
                     <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
                 </div>
 
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 d-flex flex-column">
+                <div class="d-flex flex-column ml-3">
                     <h6 class="mt-2">
                         Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
                         nhân văn ở WLIN Global Holdings (WGH)”
                     </h6>
                     <span class="mt-2" style="font-size: 13px; font-weight: 400;">15/06/2022</span>
 
-                    <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
+                    <button type="button" class="btn btn-view btn-dark ml-4 mt-2" style="width: 110px">
                         Xem chi tiết
                     </button>
                 </div>
             </div>
 
-            <div class="row d-flex flex-row mb-3">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <div class="d-flex flex-row mb-3">
+                <div>
                     <img src="https://www.wlin.com.vn/images/images/IMG_7327.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
                 </div>
 
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 d-flex flex-column">
+                <div class="d-flex flex-column ml-3">
                     <h6 class="mt-2">
                         Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
                         nhân văn ở WLIN Global Holdings (WGH)”
                     </h6>
                     <span class="mt-2" style="font-size: 13px; font-weight: 400;">15/06/2022</span>
 
-                    <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
+                    <button type="button" class="btn btn-view btn-dark ml-4 mt-2" style="width: 110px">
                         Xem chi tiết
                     </button>
                 </div>
@@ -111,56 +111,56 @@ $this->title = "Tin Tức";
 
     <div class="row">
 
-        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-            <div class="row d-flex flex-row mb-3">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <div class="col-md-6">
+            <div class="d-flex flex-row mb-3">
+                <div>
                     <img src="https://www.wlin.com.vn/images/images/Hoa%20h%E1%BA%ADu%20Ho%C3%A0ng%20Y%E1%BA%BFn-05%20(1).jpg" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
                 </div>
 
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 d-flex flex-column pl-5">
+                <div class="d-flex flex-column ml-3">
                     <h6 class="mt-2">
                         Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
                         nhân văn ở WLIN Global Holdings (WGH)”
                     </h6>
                     <span class="mt-2" style="font-size: 13px; font-weight: 400;">15/06/2022</span>
 
-                    <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
+                    <button type="button" class="btn btn-view btn-dark ml-4 mt-2" style="width: 110px">
                         Xem chi tiết
                     </button>
                 </div>
             </div>
 
-            <div class="row d-flex flex-row mb-3">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <div class="d-flex flex-row mb-3">
+                <div>
                     <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
                 </div>
 
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 d-flex flex-column pl-5">
+                <div class="d-flex flex-column ml-3">
                     <h6 class="mt-2">
                         Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
                         nhân văn ở WLIN Global Holdings (WGH)”
                     </h6>
                     <span class="mt-2" style="font-size: 13px; font-weight: 400;">15/06/2022</span>
 
-                    <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
+                    <button type="button" class="btn btn-view btn-dark ml-4 mt-2" style="width: 110px">
                         Xem chi tiết
                     </button>
                 </div>
             </div>
 
-            <div class="row d-flex flex-row mb-3">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <div class="d-flex flex-row mb-3">
+                <div>
                     <img src="https://www.wlin.com.vn/images/images/IMG_7327.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
                 </div>
 
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 d-flex flex-column pl-5">
+                <div class="d-flex flex-column ml-3">
                     <h6 class="mt-2">
                         Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
                         nhân văn ở WLIN Global Holdings (WGH)”
                     </h6>
                     <span class="mt-2" style="font-size: 13px; font-weight: 400;">15/06/2022</span>
 
-                    <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
+                    <button type="button" class="btn btn-view btn-dark ml-4 mt-2" style="width: 110px">
                         Xem chi tiết
                     </button>
                 </div>
@@ -168,56 +168,56 @@ $this->title = "Tin Tức";
         </div>
 
 
-        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-            <div class="row d-flex flex-row mb-3">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <div class="col-md-6">
+            <div class="d-flex flex-row mb-3">
+                <div>
                     <img src="https://www.wlin.com.vn/images/images/Hoa%20h%E1%BA%ADu%20Ho%C3%A0ng%20Y%E1%BA%BFn-05%20(1).jpg" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
                 </div>
 
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 d-flex flex-column pl-5">
+                <div class="d-flex flex-column ml-3">
                     <h6 class="mt-2">
                         Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
                         nhân văn ở WLIN Global Holdings (WGH)”
                     </h6>
                     <span class="mt-2" style="font-size: 13px; font-weight: 400;">15/06/2022</span>
 
-                    <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
+                    <button type="button" class="btn btn-view btn-dark ml-4 mt-2" style="width: 110px">
                         Xem chi tiết
                     </button>
                 </div>
             </div>
 
-            <div class="row d-flex flex-row mb-3">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <div class="d-flex flex-row mb-3">
+                <div>
                     <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
                 </div>
 
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 d-flex flex-column pl-5">
+                <div class="d-flex flex-column ml-3">
                     <h6 class="mt-2">
                         Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
                         nhân văn ở WLIN Global Holdings (WGH)”
                     </h6>
                     <span class="mt-2" style="font-size: 13px; font-weight: 400;">15/06/2022</span>
 
-                    <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
+                    <button type="button" class="btn btn-view btn-dark ml-4 mt-2" style="width: 110px">
                         Xem chi tiết
                     </button>
                 </div>
             </div>
 
-            <div class="row d-flex flex-row mb-3">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <div class="d-flex flex-row mb-3">
+                <div>
                     <img src="https://www.wlin.com.vn/images/images/IMG_7327.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
                 </div>
 
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 d-flex flex-column pl-5">
+                <div class="d-flex flex-column ml-3">
                     <h6 class="mt-2">
                         Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
                         nhân văn ở WLIN Global Holdings (WGH)”
                     </h6>
                     <span class="mt-2" style="font-size: 13px; font-weight: 400;">15/06/2022</span>
 
-                    <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
+                    <button type="button" class="btn btn-view btn-dark ml-4 mt-2" style="width: 110px">
                         Xem chi tiết
                     </button>
                 </div>
@@ -229,7 +229,7 @@ $this->title = "Tin Tức";
 
 <!-- Xem them -->
 <section data-aos="fade-up" data-aos-duration="1500" class="text-center p-5">
-    <button type="button" class="btn btn-view-more btn-linear">
+    <button type="button" class="btn btn-view-more btn-dark">
         Xem thêm ➜
     </button>
 </section>
