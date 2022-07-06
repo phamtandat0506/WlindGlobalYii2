@@ -21,7 +21,6 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/style.css',
-        'css/br_img.css',
         'assets/Library/BS4/css/bootstrap.min.css',
         'assets/Library/AOS/aos-master/dist/aos.css',
         'assets/Library/SLICK/slick-1.8.1/slick/slick.css',

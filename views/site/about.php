@@ -118,7 +118,7 @@ $this->title = "Giới Thiệu";
                     </ol>
                 </div>
                 <div class="col-md-4 col-lg-4 col-xl-4 px-5">
-                    <img src="./Images/logo_2.png" class="w-100" alt="..." />
+                    <img src="./assets/Images/logo_2.png" class="w-100" alt="..." />
                 </div>
             </div>
 
@@ -167,7 +167,7 @@ $this->title = "Giới Thiệu";
                 </div>
 
                 <div class="col-md-8 col-lg-8 col-xl-8 mt-4">
-                <img src="./Images/logo_2.png" class="w-100" alt="..." />
+                <img src="./assets/Images/logo_2.png" class="w-100" alt="..." />
                    
                 </div>
             </div>
@@ -176,7 +176,7 @@ $this->title = "Giới Thiệu";
 
         <!-- Youtube -->
 
-        <!-- <section data-aos="fade-up" data-aos-duration="1500" class="container-fluid px-5 text-center">
+        <section data-aos="fade-up" data-aos-duration="1500" class="container-fluid px-5 text-center">
             <div class="py-5">
                 <p class="title-dark">Youtube</p>
             </div>
@@ -188,7 +188,7 @@ $this->title = "Giới Thiệu";
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-        </section> -->
+        </section>
         <!-- Youtube -->
 
         <!-- Lich su -->
