@@ -13,4 +13,19 @@ class HtmlController extends Controller {
         return $this->render('news');
     }
 
+    public function actionMedia() {
+        return $this->render('media');
+    }
+    
+    public function actionService() {
+        return $this->render('service');
+    }
+
+    public function actionWic() {
+        return $this->render('wic');
+    }
+
+    public function actionWsun() {
+        return $this->render('wsun');
+    }
 }
