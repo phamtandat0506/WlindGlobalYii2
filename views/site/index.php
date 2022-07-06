@@ -14,15 +14,15 @@ $this->title = 'Trang chủ';
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./assets/Images/slide_home_1.png" class="img-slider d-block w-100" alt="..." />
+                <img src="./Images/slide_home_1.png" class="img-slider d-block w-100" alt="..." />
             </div>
 
             <div class="carousel-item">
-                <img src="./assets/Images/slide_home_2.jpg" class="img-slider d-block w-100" alt="..." />
+                <img src="./Images/slide_home_2.jpg" class="img-slider d-block w-100" alt="..." />
             </div>
 
             <div class="carousel-item">
-                <img src="./assets/Images/slide_home_3.png" class="img-slider d-block w-100" alt="..." />
+                <img src="./Images/slide_home_3.png" class="img-slider d-block w-100" alt="..." />
             </div>
         </div>
 
@@ -86,31 +86,36 @@ $this->title = 'Trang chủ';
             </ol>
         </div>
         <div class="col-md-4 col-lg-4 col-xl-4 px-5">
-            <img src="./assets//Images/Asset.png" class="w-100" alt="..." />
+            <img src=".//Images/Asset.png" class="w-100" alt="..." />
         </div>
     </div>
 </section>
 <!-- Gioi thieu -->
 
 <!-- Nha sang lap -->
-<section data-aos="fade-up" data-aos-duration="1500" class="founder my-bg-2 text-141E33 p-3 mt-5">
-    <div class="text-center">
-
-    </div>
-
-    <div class="row d-flex justify-content-between px-5">
-        
-        <div class="col-md-7 col-lg-7 col-xl-7 mt-4 align-items-center founder-intro">
-            <p class="title-141E33">Triết lý hoạt động của WLIN: Kết nối để đẹp hơn, thành công hơn và hạnh phúc hơn</p>
-            <p class="title-141E33-s">WLIN hiểu rằng phụ nữ đóng vai trò vô cùng quan trọng trong việc giữ gìn hạnh phúc gia đình, trong việc
-                 nuôi dạy con cái và đóng góp không nhỏ vào sự phát triển của cộng đồng trong nước cũng như toàn thế giới.</p>
-                 
-                <button type="button" class="btn btn-read-more ml-4 mt-2">
-                    Xem chi tiết
-                </button>
-        </div>
-        <div class="founder-img col-md-5 col-lg-5 col-xl-5 mt-4 text-center">
-            <iframe class="farme-ytb" width="534" height="300" src="https://www.youtube.com/embed/dI-43dHvb1g"></iframe>
+<section data-aos="fade-up" data-aos-duration="1500" class="founder my-bg-2 text-141E33 mt-5">
+    <div class="container-fuild">
+        <div class="row d-flex justify-content-between mx-w mx-0">
+            
+            <div class="col-md-7 col-lg-7 col-xl-7 align-items-center founder-intro">
+                <p class="title-141E33 left-parnten-home text-left px-4 pt-4 pb-4">Triết lý hoạt động của WLIN: Kết nối để đẹp hơn, thành công hơn và hạnh phúc hơn</p>
+                <div class="left-bottom-parnten-home px-4 pt-4">
+                    <p class="title-141E33-s">WLIN hiểu rằng phụ nữ đóng vai trò vô cùng quan trọng trong việc giữ gìn hạnh phúc gia đình, trong việc
+                        nuôi dạy con cái và đóng góp không nhỏ vào sự phát triển của cộng đồng trong nước cũng như toàn thế giới.</p>
+                    
+                    <button type="button" class="btn btn-read-more ml-4 mt-2">
+                        Xem chi tiết
+                    </button>
+                </div>
+            </div>
+            <div class="founder-img col-md-5 col-lg-5 col-xl-5 mt-4 text-center pl-0 pr-0">
+                <div class="right-home-top"></div>
+                <div class="position-home">
+                    <iframe class="farme-ytb" width="534" height="300" src="https://www.youtube.com/embed/dI-43dHvb1g"></iframe>
+                </div>
+                
+                <div class="right-home-bottom"></div>
+            </div>
         </div>
     </div>
 </section>
@@ -126,42 +131,42 @@ $this->title = 'Trang chủ';
             <div class="tabs hst-slick-slider px-5">
                 <div class="tab-item slider-item active">
                     <div class="hst-image">
-                        <img src="./assets/Images/Asset 1 1.png" alt="..." />
+                        <img src="./Images/Asset 1 1.png" alt="..." />
                     </div>
                 </div>
                 <div class="tab-item slider-item ">
                     <div class="hst-image">
-                        <img src="./assets/Images/Asset 1 1.png" alt="..." />
+                        <img src="./Images/Asset 1 1.png" alt="..." />
                     </div>
                 </div>
                 <div class="tab-item slider-item ">
                     <div class="hst-image">
-                        <img src="./assets/Images/Asset 1 1.png" alt="..." />
+                        <img src="./Images/Asset 1 1.png" alt="..." />
                     </div>
                 </div>
                 <div class="tab-item slider-item ">
                     <div class="hst-image">
-                        <img src="./assets/Images/Asset 1 1.png" alt="..." />
+                        <img src="./Images/Asset 1 1.png" alt="..." />
                     </div>
                 </div>
                 <div class="tab-item slider-item ">
                     <div class="hst-image">
-                        <img src="./assets/Images/Asset 1 1.png" alt="..." />
+                        <img src="./Images/Asset 1 1.png" alt="..." />
                     </div>
                 </div>
                 <div class="tab-item slider-item ">
                     <div class="hst-image">
-                        <img src="./assets/Images/Asset 1 1.png" alt="..." />
+                        <img src="./Images/Asset 1 1.png" alt="..." />
                     </div>
                 </div>
                 <div class="tab-item slider-item ">
                     <div class="hst-image">
-                        <img src="./assets/Images/Asset 1 1.png" alt="..." />
+                        <img src="./Images/Asset 1 1.png" alt="..." />
                     </div>
                 </div>
                 <div class="tab-item slider-item ">
                     <div class="hst-image">
-                        <img src="./assets/Images/Asset 1 1.png" alt="..." />
+                        <img src="./Images/Asset 1 1.png" alt="..." />
                     </div>
                 </div>
 
@@ -475,6 +480,42 @@ $this->title = 'Trang chủ';
 </section>
 <!-- Xem them -->
 
+<div data-aos="fade-up" data-aos-duration="1500" style="margin-top: 38px;" class="container-fluid p-0 py-5">
+    <div id="sliderCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <ol class="carousel-indicators">
+            <li data-target="#sliderCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#sliderCarousel" data-slide-to="1"></li>
+            <li data-target="#sliderCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Images/slide/slider_home_4.png" class="img-slider d-block w-100" alt="..." />
+            </div>
+
+            <div class="carousel-item">
+                <img src="./Images/slide/slider_home_4.png" class="img-slider d-block w-100" alt="..." />
+            </div>
+
+            <div class="carousel-item">
+                <img src="./Images/slide/slider_home_4.png" class="img-slider d-block w-100" alt="..." />
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#sliderCarousel" role="button" data-slide="prev">
+            <div class="banner-icons">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </a>
+
+        <a class="carousel-control-next" href="#sliderCarousel" role="button" data-slide="next">
+            <div class="banner-icons">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </a>
+    </div>
+</div>
+
 <section data-aos="fade-up" data-aos-duration="1500" class="tieuDiem container-fluid px-5 mt-5" style="max-height: 700px">
     <div class="text-center py-5">
         <p class="title-dark">Hoạt động nổi bật</p>
@@ -607,11 +648,11 @@ $this->title = 'Trang chủ';
     </div>
 
 </section>
-<!-- Xem them    background-image: url(./assets/Images/hoatiet.png);
+<!-- Xem them    background-image: url(./Images/hoatiet_1.png);
     background-repeat: no-repeat;
     background-position: 0px -15px;
     background-size: contain;
-    height: 150px;
+    height: 184px;
     transform: scale(1); -->
 <section data-aos="fade-up" data-aos-duration="1500" class="text-center p-5">
     <button type="button" class="btn btn-view-more btn-linear">

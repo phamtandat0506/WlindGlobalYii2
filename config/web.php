@@ -54,6 +54,12 @@ $config = [
                 'home' => 'site/index',
                 'about' => 'site/about',
                 'news' => 'html/news',
+                'media' => 'html/media',
+                'service' => 'html/service',
+                'wic' => 'html/wic',
+                'wsun' => 'html/wsun',
+                'ecosystem' => 'site/ecosystem',
+                'academy' => 'site/academy',
             ],
         ],
         

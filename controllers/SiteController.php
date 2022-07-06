@@ -130,4 +130,14 @@ class SiteController extends Controller
     {
         return $this->render('events');
     }
+
+    public function actionEcosystem()
+    {
+        return $this->render('ecosystem');
+    }
+
+    public function actionAcademy()
+    {
+        return $this->render('academy');
+    }
 }
