@@ -56,7 +56,7 @@ $this->title = 'WLIN SERVICE';
         </div>
 
         <div class="col-md-4 col-lg-4 col-xl-4 mt-4">
-            <img src="./assets/Images/Asset 1 1.png" alt="" class="w-100"
+            <img src="./Images/Asset.png" alt="" class="w-100"
                 style="max-width: 442px; max-height: 633px;">
         </div>
     </div>
@@ -65,7 +65,7 @@ $this->title = 'WLIN SERVICE';
 
 <!-- Xem them -->
 <section class="text-center p-5">
-    <button type="button" class="btn btn-view-more btn-primary">
+    <button type="button" class="btn btn-view-more btn-linear">
         Xem thêm WLIN SERVICE
     </button>
 </section>

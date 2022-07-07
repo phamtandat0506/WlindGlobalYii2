@@ -56,7 +56,7 @@
   font-size: 33px;
   font-weight: 600;
   line-height: 49.5px;
-  color: #343b4b;
+  color: #141e33;
   max-width: fit-content;
   margin: 0 auto;
 }
@@ -69,7 +69,7 @@
   left: 50%;
   transform: translateX(-50%);
   height: 3px;
-  background-color: #343b4b;
+  background-color: #141e33;
   border-radius: 5px;
 }
 
@@ -357,32 +357,33 @@ iframe {
 /* Lich su */
 
 /* Founder */
-.founder .founder-img .frame {
-  border: 2px solid #fff;
-border-radius: 8px;
+.founder-img .frame {
+  border: 2px solid #141e33;
+  border-radius: 8px;
 }
 
-.founder .founder-img img {
+.founder-img img {
   width: 100%;
   margin: 10px -10px -10px 10px;
   border-radius: 8px;
 }
 
-.founder .founder-img .img-name {
+.founder-img .img-name {
   font-size: 13px;
   font-weight: 500;
   margin-top: 15px;
+  color: #141e33;
 }
 
-.founder .founder-intro span {
-  display: flex;
+.founder-intro span {
   width: 100%;
   height: auto;
-  border: 2px solid #fff;
+  border: 2px solid #141e33;
   border-radius: 8px;
   padding: 20px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
+  color: #141e33;
 }
 /* Founder */
 
@@ -578,18 +579,18 @@ border-radius: 8px;
 }
 
 .my-bg-2 {
-  background-image: linear-gradient(to right, #DCB770 , #FAE5C6);
+  background-image: linear-gradient(to right, #dcb770, #fae5c6);
 }
 
 .btn-read-more {
   background-color: #343b4b !important;
   border: none !important;
-  color:#fff;
+  color: #fff;
 }
 
 .btn-read-more:hover {
   color: #343b4b !important;
-  background-color:#fff !important;
+  background-color: #fff !important;
 }
 
 .title-141E33 {
@@ -597,16 +598,14 @@ border-radius: 8px;
   font-size: 33px;
   font-weight: 600;
   line-height: 49.5px;
-  color: #141E33;
+  color: #141e33;
   max-width: fit-content;
   margin: 0 auto;
 }
 .title-141E33-s {
-  color: #141E33;
+  color: #141e33;
   font-size: 16px;
 }
-
-
 
 /* PAGE HST Slider */
 .hst-menu-slick-slider {
@@ -720,7 +719,6 @@ border-radius: 8px;
 }
 /* btn-hst-view-detail */
 
-
 /* Banner */
 .banner {
   position: relative;
@@ -764,7 +762,7 @@ border-radius: 8px;
 }
 
 .lecturer-slick-slider .lecturer-image {
-  height: 300px;
+  height: 420px;
 }
 .lecturer-slick-slider .lecturer-image img {
   width: 100%;
@@ -847,7 +845,7 @@ border-radius: 8px;
 
 /* WLIN LEADER ACADEMY */
 .intro-content {
-  border: 2px solid #141e33;
+  /* border: 2px solid #141e33; */
   border-radius: 6px;
   padding: 30px 10px;
   width: auto;

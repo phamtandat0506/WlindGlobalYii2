@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer data-aos="fade-up" data-aos-duration="1500" class="footer text-left text-lg-start my-bg text-light mt-5">
+<footer data-aos="fade-up" data-aos-duration="1500" class="footer text-left text-lg-start my-bg text-light">
     <!-- Section: Links  -->
     <section >
         <div class="logo-footer mt-5 m-auto">
