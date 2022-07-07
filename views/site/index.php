@@ -172,7 +172,7 @@ $this->title = 'Trang chủ';
 
             </div>
 
-            <div class="tab-content" >
+            <div class="tab-content pt-5" >
                 <div class="tab-pane active">
                     <img src="https://www.wlin.com.vn/images/abcd__2_.jpg" class="w-100" alt="">
                 </div>

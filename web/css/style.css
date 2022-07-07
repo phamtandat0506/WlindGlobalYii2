@@ -489,6 +489,7 @@ border-radius: 8px;
   line-height: 1;
   z-index: 5;
   transition: all 0.2s linear;
+  cursor: pointer;
 
   background-color: transparent;
   color: #343b4b;
@@ -514,27 +515,9 @@ border-radius: 8px;
 .hst-slick-slider .hst-slick-next {
   right: 0;
 }
-.hst-slick-slider .slick-dots {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  gap: 0 20px;
-  list-style: none;
-  padding: 0;
-}
-.hst-slick-slider .slick-dots button {
-  width: 8px;
-  height: 8px;
-  border: none;
-  outline: none;
-  font-size: 0;
-  padding: 0;
-  border-radius: 50%;
-  background-color: #ccc;
-transition: all 0.2s linear;
-}
-.hst-slick-slider .slick-dots .slick-active button {
-  background-color: #ffc54d;
+
+.hst-image {
+  cursor: pointer;
 }
 
 .tabs .active .hst-image {
@@ -543,23 +526,22 @@ transition: all 0.2s linear;
 
 .tabs .hst-image::after {
   content: "";
+  display: block;
+  height: 6px;
+  border-radius: 50px;
+  background: #343b4b;
   position: absolute;
+  left: 50%;
   width: 0;
+  transform: translateX(-50%);
+  bottom: -20px;
+
+  transition: all 0.5s;
 }
 
 .tabs .active .hst-image::after {
-  content: "";
-  position: absolute;
   width: 100%;
-  height: 6px;
-  bottom: -20px;
-  left: 0;
-  background-color: #343b4b;
-  border-radius: 50px;
-
-  transition: all 0.3s;
 }
-
 /* HST Slider */
 
 /* Leader */
@@ -670,6 +652,7 @@ transition: all 0.2s linear;
   line-height: 1;
   z-index: 5;
   transition: all 0.2s linear;
+  cursor: pointer;
 
   background-color: transparent;
   color: #343b4b;
@@ -713,6 +696,7 @@ transition: all 0.2s linear;
   border-radius: 50%;
   background-color: #ccc;
   transition: all 0.2s linear;
+  cursor: pointer;
 }
 .hst-menu-slick-slider .slick-dots .slick-active button {
   background-color: #ffc54d;
@@ -803,6 +787,7 @@ transition: all 0.2s linear;
   line-height: 1;
   z-index: 5;
   transition: all 0.2s linear;
+  cursor: pointer;
 
   background-color: transparent;
   color: #343b4b;
@@ -925,6 +910,7 @@ transition: all 0.2s linear;
   line-height: 1;
   z-index: 5;
   transition: all 0.2s linear;
+  cursor: pointer;
 
   background-color: transparent;
   color: #343b4b;
@@ -974,3 +960,35 @@ transition: all 0.2s linear;
 .project-slick-slider .slick-dots .slick-active button {
   background-color: #ffc54d;
 }
+
+/* Contact */
+.form-contact,
+.contact-address {
+  padding: 50px 30px;
+  background-color: #fcfcfc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.contact-email,
+.contact-phone {
+  padding: 60px 20px;
+  background-color: #fcfcfc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.contact-span {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.btn-send {
+  padding: 8px 50px !important;
+}
+
+textarea {
+  resize: none !important;
+}
+/* Contact */

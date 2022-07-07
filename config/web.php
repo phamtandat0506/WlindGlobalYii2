@@ -47,7 +47,6 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-
             //'suffix' => '.html',
             //'enaleStrictParsing' => true,
             'rules' => [
@@ -58,6 +57,8 @@ $config = [
                 'service' => 'html/service',
                 'wic' => 'html/wic',
                 'wsun' => 'html/wsun',
+                'club' => 'html/club',
+                'contact' => 'html/contact',
                 'ecosystem' => 'site/ecosystem',
                 'academy' => 'site/academy',
             ],
