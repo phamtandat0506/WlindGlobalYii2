@@ -16,7 +16,9 @@ $this->title = 'WIC';
                     <a href="#">Hệ sinh thái WGH</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                    <a href="#"><?=$this->title?></a>
+                    <a href="#">
+                        <?=$this->title?>
+                    </a>
                 </li>
             </ol>
         </nav>
@@ -29,7 +31,9 @@ $this->title = 'WIC';
     <div class="banner">
         <img class="banner-img w-100" src="https://www.wlin.com.vn/images/banner_risemount.jpg" alt="">
         <div class="banner-title">
-            <p><?=$this->title?></p>
+            <p>
+                <?=$this->title?>
+            </p>
         </div>
     </div>
 </section>
@@ -38,12 +42,16 @@ $this->title = 'WIC';
 <!-- Gioi thieu -->
 <section data-aos="fade-up" data-aos-duration="1500" class="px-5">
     <div class="text-center pb-5">
-        <p class="title-dark">Giới thiệu <?=$this->title?></p>
+        <p class="title-dark">Giới thiệu
+            <?=$this->title?>
+        </p>
     </div>
 
     <div class="row d-flex flex-row justify-content-between mt-4 py-3 px-5">
         <div class="intro-content col-md-7 col-lg-7 col-xl-7 mt-4">
-            <h4><?=$this->title?></h4>
+            <h4>
+                <?=$this->title?>
+            </h4>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                 alteration in some form, by injected humour, or randomised words which don't look even slightly
                 believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
@@ -56,8 +64,7 @@ $this->title = 'WIC';
         </div>
 
         <div class="col-md-4 col-lg-4 col-xl-4 mt-4">
-            <img src="./assets/Images/Asset 1 1.png" alt="" class="w-100"
-                style="max-width: 442px; max-height: 633px;">
+            <img src="./Images/Asset.png" alt="" class="w-100" style="max-width: 442px; max-height: 633px;">
         </div>
     </div>
 </section>
@@ -65,9 +72,9 @@ $this->title = 'WIC';
 
 <!-- Xem them -->
 <section class="text-center p-5">
-    <button type="button" class="btn btn-view-more btn-primary">
-        Xem thêm <?=$this->title?>
+    <button type="button" class="btn btn-view-more btn-linear">
+        Xem thêm
+        <?=$this->title?>
     </button>
 </section>
 <!-- Xem them -->
-

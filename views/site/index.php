@@ -4,7 +4,9 @@
 
 $this->title = 'Trang chủ';
 ?>
-<div data-aos="fade-up" data-aos-duration="1500" style="margin-top: 38px;" class="container-fluid p-0 py-5">
+
+<!-- Slider -->
+<section data-aos="fade-up" data-aos-duration="1500" style="margin-top: 38px;" class="container-fluid p-0 pt-5">
     <div id="sliderCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
         <ol class="carousel-indicators">
             <li data-target="#sliderCarousel" data-slide-to="0" class="active"></li>
@@ -38,11 +40,11 @@ $this->title = 'Trang chủ';
             </div>
         </a>
     </div>
-</div>
+</section>
 <!-- Slider -->
 
 <!-- Gioi thieu -->
-<section data-aos="fade-up" data-aos-duration="1500" class="px-3">
+<!-- <section data-aos="fade-up" data-aos-duration="1500" class="px-3">
     <div class="text-center">
         <p class="title-dark">Giới thiệu</p>
     </div>
@@ -89,21 +91,24 @@ $this->title = 'Trang chủ';
             <img src=".//Images/Asset.png" class="w-100" alt="..." />
         </div>
     </div>
-</section>
+</section> -->
 <!-- Gioi thieu -->
 
-<!-- Nha sang lap -->
-<section data-aos="fade-up" data-aos-duration="1500" class="founder my-bg-2 text-141E33 mt-5">
+<!-- Triet ly -->
+<section data-aos="fade-up" data-aos-duration="1500" class="founder my-bg-2 text-141E33">
     <div class="container-fuild">
         <div class="row d-flex justify-content-between mx-w mx-0">
-            
+
             <div class="col-md-7 col-lg-7 col-xl-7 align-items-center founder-intro">
-                <p class="title-141E33 left-parnten-home text-left px-4 pt-4 pb-4">Triết lý hoạt động của WLIN: Kết nối để đẹp hơn, thành công hơn và hạnh phúc hơn</p>
+                <p class="title-141E33 left-parnten-home text-left px-4 pt-4 pb-4">Triết lý hoạt động của WLIN: Kết nối
+                    để đẹp hơn, thành công hơn và hạnh phúc hơn</p>
                 <div class="left-bottom-parnten-home px-4 pt-4">
-                    <p class="title-141E33-s">WLIN hiểu rằng phụ nữ đóng vai trò vô cùng quan trọng trong việc giữ gìn hạnh phúc gia đình, trong việc
-                        nuôi dạy con cái và đóng góp không nhỏ vào sự phát triển của cộng đồng trong nước cũng như toàn thế giới.</p>
-                    
-                    <button type="button" class="btn btn-read-more ml-4 mt-2">
+                    <p class="title-141E33-s">WLIN hiểu rằng phụ nữ đóng vai trò vô cùng quan trọng trong việc giữ gìn
+                        hạnh phúc gia đình, trong việc
+                        nuôi dạy con cái và đóng góp không nhỏ vào sự phát triển của cộng đồng trong nước cũng như toàn
+                        thế giới.</p>
+
+                    <button type="button" class="btn btn-read-more mt-2">
                         Xem chi tiết
                     </button>
                 </div>
@@ -111,98 +116,98 @@ $this->title = 'Trang chủ';
             <div class="founder-img col-md-5 col-lg-5 col-xl-5 mt-4 text-center pl-0 pr-0">
                 <div class="right-home-top"></div>
                 <div class="position-home">
-                    <iframe class="farme-ytb" width="534" height="300" src="https://www.youtube.com/embed/dI-43dHvb1g"></iframe>
+                    <iframe class="farme-ytb" width="534" height="300"
+                        src="https://www.youtube.com/embed/dI-43dHvb1g"></iframe>
                 </div>
-                
+
                 <div class="right-home-bottom"></div>
             </div>
         </div>
     </div>
 </section>
-<!-- Nha sang lap -->
+<!-- Triet ly -->
 
-<!-- He sinh thai -->
 <!-- He sinh thai -->
 <section data-aos="fade-up" data-aos-duration="1500" class="hst text-light mt-5" style="max-height: 680px;">
-            <div class="text-center">
-                <p class="title-dark">Hệ sinh thái WGH</p>
+    <div class="text-center">
+        <p class="title-dark">Hệ sinh thái WGH</p>
+    </div>
+
+    <div class="tabs hst-slick-slider px-5">
+        <div class="tab-item slider-item active">
+            <div class="hst-image">
+                <img src="./Images/Asset 1 1.png" alt="..." />
             </div>
-
-            <div class="tabs hst-slick-slider px-5">
-                <div class="tab-item slider-item active">
-                    <div class="hst-image">
-                        <img src="./Images/Asset 1 1.png" alt="..." />
-                    </div>
-                </div>
-                <div class="tab-item slider-item ">
-                    <div class="hst-image">
-                        <img src="./Images/Asset 1 1.png" alt="..." />
-                    </div>
-                </div>
-                <div class="tab-item slider-item ">
-                    <div class="hst-image">
-                        <img src="./Images/Asset 1 1.png" alt="..." />
-                    </div>
-                </div>
-                <div class="tab-item slider-item ">
-                    <div class="hst-image">
-                        <img src="./Images/Asset 1 1.png" alt="..." />
-                    </div>
-                </div>
-                <div class="tab-item slider-item ">
-                    <div class="hst-image">
-                        <img src="./Images/Asset 1 1.png" alt="..." />
-                    </div>
-                </div>
-                <div class="tab-item slider-item ">
-                    <div class="hst-image">
-                        <img src="./Images/Asset 1 1.png" alt="..." />
-                    </div>
-                </div>
-                <div class="tab-item slider-item ">
-                    <div class="hst-image">
-                        <img src="./Images/Asset 1 1.png" alt="..." />
-                    </div>
-                </div>
-                <div class="tab-item slider-item ">
-                    <div class="hst-image">
-                        <img src="./Images/Asset 1 1.png" alt="..." />
-                    </div>
-                </div>
-
+        </div>
+        <div class="tab-item slider-item ">
+            <div class="hst-image">
+                <img src="./Images/Asset 1 1.png" alt="..." />
             </div>
-
-            <div class="tab-content pt-5" >
-                <div class="tab-pane active">
-                    <img src="https://www.wlin.com.vn/images/abcd__2_.jpg" class="w-100" alt="">
-                </div>
-                <div class="tab-pane ">
-                    <img src="https://www.wlin.com.vn/images/banner_risemount.jpg" class="w-100" alt="">
-                </div>
-                <div class="tab-pane">
-                    <img src="https://www.wlin.com.vn/images/banner_ceokid_1920_x_600_px_.jpg" class="w-100" alt="">
-                </div>
-                <div class="tab-pane ">
-                    <img src="https://www.wlin.com.vn/images/z3540803147334_40199448586947008a5257ab7ed41a65.jpg"
-                        class="w-100" alt="">
-                </div>
-                <div class="tab-pane">
-                    <img src="https://www.wlin.com.vn/images/abcd__2_.jpg" class="w-100" alt="">
-                </div>
-                <div class="tab-pane ">
-                    <img src="https://www.wlin.com.vn/images/banner_risemount.jpg" class="w-100" alt="">
-                </div>
-                <div class="tab-pane">
-                    <img src="https://www.wlin.com.vn/images/banner_ceokid_1920_x_600_px_.jpg" class="w-100" alt="">
-                </div>
-                <div class="tab-pane ">
-                    <img src="https://www.wlin.com.vn/images/z3540803147334_40199448586947008a5257ab7ed41a65.jpg"
-                        class="w-100" alt="">
-                </div>
+        </div>
+        <div class="tab-item slider-item ">
+            <div class="hst-image">
+                <img src="./Images/Asset 1 1.png" alt="..." />
             </div>
+        </div>
+        <div class="tab-item slider-item ">
+            <div class="hst-image">
+                <img src="./Images/Asset 1 1.png" alt="..." />
+            </div>
+        </div>
+        <div class="tab-item slider-item ">
+            <div class="hst-image">
+                <img src="./Images/Asset 1 1.png" alt="..." />
+            </div>
+        </div>
+        <div class="tab-item slider-item ">
+            <div class="hst-image">
+                <img src="./Images/Asset 1 1.png" alt="..." />
+            </div>
+        </div>
+        <div class="tab-item slider-item ">
+            <div class="hst-image">
+                <img src="./Images/Asset 1 1.png" alt="..." />
+            </div>
+        </div>
+        <div class="tab-item slider-item ">
+            <div class="hst-image">
+                <img src="./Images/Asset 1 1.png" alt="..." />
+            </div>
+        </div>
 
-        </section>
-        <!-- He sinh thai -->
+    </div>
+
+    <div class="tab-content pt-5">
+        <div class="tab-pane active">
+            <img src="https://www.wlin.com.vn/images/abcd__2_.jpg" class="w-100" alt="">
+        </div>
+        <div class="tab-pane ">
+            <img src="https://www.wlin.com.vn/images/banner_risemount.jpg" class="w-100" alt="">
+        </div>
+        <div class="tab-pane">
+            <img src="https://www.wlin.com.vn/images/banner_ceokid_1920_x_600_px_.jpg" class="w-100" alt="">
+        </div>
+        <div class="tab-pane ">
+            <img src="https://www.wlin.com.vn/images/z3540803147334_40199448586947008a5257ab7ed41a65.jpg" class="w-100"
+                alt="">
+        </div>
+        <div class="tab-pane">
+            <img src="https://www.wlin.com.vn/images/abcd__2_.jpg" class="w-100" alt="">
+        </div>
+        <div class="tab-pane ">
+            <img src="https://www.wlin.com.vn/images/banner_risemount.jpg" class="w-100" alt="">
+        </div>
+        <div class="tab-pane">
+            <img src="https://www.wlin.com.vn/images/banner_ceokid_1920_x_600_px_.jpg" class="w-100" alt="">
+        </div>
+        <div class="tab-pane ">
+            <img src="https://www.wlin.com.vn/images/z3540803147334_40199448586947008a5257ab7ed41a65.jpg" class="w-100"
+                alt="">
+        </div>
+    </div>
+
+</section>
+
 <!-- He sinh thai -->
 
 <!-- Hoi vien WLIN -->
@@ -250,10 +255,6 @@ $this->title = 'Trang chủ';
 </section> -->
 <!-- Hoi vien WLIN -->
 
-<!-- Tieu diem -->
-
-<!-- Tieu diem -->
-
 <!-- Su kien -->
 <section data-aos="fade-up" data-aos-duration="1500" class="container-fluid px-5">
 
@@ -281,7 +282,7 @@ $this->title = 'Trang chủ';
         <div class="col-md-7">
             <div class="d-flex flex-row mb-3">
                 <div>
-                    <img src="https://www.wlin.com.vn/images/images/Hoa%20h%E1%BA%ADu%20Ho%C3%A0ng%20Y%E1%BA%BFn-05%20(1).jpg" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
+                    <img src="https://www.wlin.com.vn/images/images/Hoa%20h%E1%BA%ADu%20Ho%C3%A0ng%20Y%E1%BA%BFn-05%20(1).jpg" class="news-img rounded" style="width: 100%; height: 210px" alt="..." />
                 </div>
 
                 <div class="d-flex flex-column ml-3">
@@ -299,7 +300,7 @@ $this->title = 'Trang chủ';
 
             <div class="d-flex flex-row mb-3">
                 <div>
-                    <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
+                    <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 100%; height: 210px" alt="..." />
                 </div>
 
                 <div class="d-flex flex-column ml-3">
@@ -317,7 +318,7 @@ $this->title = 'Trang chủ';
 
             <div class="d-flex flex-row mb-3">
                 <div>
-                    <img src="https://www.wlin.com.vn/images/images/IMG_7327.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
+                    <img src="https://www.wlin.com.vn/images/images/IMG_7327.JPG" class="news-img rounded" style="width: 100%; height: 210px" alt="..." />
                 </div>
 
                 <div class="d-flex flex-column ml-3">
@@ -341,27 +342,28 @@ $this->title = 'Trang chủ';
                 <p class="title-dark ml-0">Tin tức - Sự kiện</p>
             </div>
             <div class="d-flex flex-column">
-                <img src="https://www.wlin.com.vn/images/poster_chut.jpg" class="news-img w-100 rounded" style="width: 574px; height: 344px" alt="..." />
-                <h6 class="mt-2">
-                    Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
-                    nhân văn ở WLIN Global Holdings (WGH)”
+                <img src="https://www.wlin.com.vn/images/poster_chut.jpg" class="news-img w-100 rounded"
+                    style="width: 574px; height: 420px" alt="..." />
+                <h6 class="mt-2" style="height: 40px; overflow: hidden;">
+                    Hào hứng chào đón sự kiện Women Leader Forum - Lễ phát động Top 100 nữ lãnh đạo Việt Nam tỏa sáng..
                 </h6>
                 <button type="button" class="btn btn-view btn-linear  ml-4 mt-2">
                     Xem chi tiết
                 </button>
-                <div class="row mt-3">
+                <div class="row mt-5">
                     <div class="col-md-6">
-                        <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
+                        <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded"
+                            style="width: 100%; height: 210px" alt="..." />
                         <h6 class="mt-2">
-                            Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
-                            nhân văn ở WLIN Global Holdings (WGH)”
+                            WLIN Global đồng hành cùng đêm nhạc “Sống để yêu thương”
                         </h6>
                         <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
                             Xem chi tiết
                         </button>
                     </div>
                     <div class="col-md-6">
-                        <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
+                        <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded"
+                            style="width: 100%; height: 210px" alt="..." />
                         <h6 class="mt-2">
                             Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
                             nhân văn ở WLIN Global Holdings (WGH)”
@@ -380,30 +382,31 @@ $this->title = 'Trang chủ';
                 <p class="title-dark ml-0">Tin cổ đông</p>
             </div>
             <div class="d-flex flex-column">
-                <img src="https://www.wlin.com.vn/images/poster_chut.jpg" class="news-img w-100 rounded" style="width: 574px; height: 344px" alt="..." />
-                <h6 class="mt-2">
-                    Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
-                    nhân văn ở WLIN Global Holdings (WGH)”
+                <img src="https://www.wlin.com.vn/images/poster_chut.jpg" class="news-img w-100 rounded"
+                    style="width: 574px; height: 420px" alt="..." />
+                <h6 class="mt-2" style="height: 40px; overflow: hidden;">
+                    Sôi động ngày hội giao thương do WLIN InterContinental miền Bắc tổ chức
                 </h6>
                 <button type="button" class="btn btn-view btn-linear  ml-4 mt-2">
                     Xem chi tiết
                 </button>
-                <div class="row mt-3">
+                <div class="row mt-5">
                     <div class="col-md-6">
-                        <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
+                        <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded"
+                            style="width: 100%; height: 210px" alt="..." />
                         <h6 class="mt-2">
-                            Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
-                            nhân văn ở WLIN Global Holdings (WGH)”
+                            WLIN Global Holdings tổ chức thành công chuỗi sự kiện Đại hội Cổ đông lần...
+
                         </h6>
                         <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
                             Xem chi tiết
                         </button>
                     </div>
                     <div class="col-md-6">
-                        <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
+                        <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded"
+                            style="width: 100%; height: 210px" alt="..." />
                         <h6 class="mt-2">
-                            Doanh nhân Vũ Thị Lương: “Tôi ấn tượng về tầm nhìn xa và tính
-                            nhân văn ở WLIN Global Holdings (WGH)”
+                            Nhà đầu tư Nguyễn Thị Phương Oanh: “Tôi muốn đóng góp vào hành trình...
                         </h6>
                         <button type="button" class="btn btn-view btn-linear ml-4 mt-2" style="width: 110px">
                             Xem chi tiết
@@ -416,7 +419,7 @@ $this->title = 'Trang chủ';
         <!-- <div class="col-md-6">
             <div class="d-flex flex-row mb-3">
                 <div>
-                    <img src="https://www.wlin.com.vn/images/images/Hoa%20h%E1%BA%ADu%20Ho%C3%A0ng%20Y%E1%BA%BFn-05%20(1).jpg" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
+                    <img src="https://www.wlin.com.vn/images/images/Hoa%20h%E1%BA%ADu%20Ho%C3%A0ng%20Y%E1%BA%BFn-05%20(1).jpg" class="news-img rounded" style="width: 100%; height: 210px" alt="..." />
                 </div>
 
                 <div class="d-flex flex-column ml-3">
@@ -434,7 +437,7 @@ $this->title = 'Trang chủ';
 
             <div class="d-flex flex-row mb-3">
                 <div>
-                    <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
+                    <img src="https://www.wlin.com.vn/images/images/IMG_8575.JPG" class="news-img rounded" style="width: 100%; height: 210px" alt="..." />
                 </div>
 
                 <div class="d-flex flex-column ml-3">
@@ -452,7 +455,7 @@ $this->title = 'Trang chủ';
 
             <div class="d-flex flex-row mb-3">
                 <div>
-                    <img src="https://www.wlin.com.vn/images/images/IMG_7327.JPG" class="news-img rounded" style="width: 249px; height: 157px" alt="..." />
+                    <img src="https://www.wlin.com.vn/images/images/IMG_7327.JPG" class="news-img rounded" style="width: 100%; height: 210px" alt="..." />
                 </div>
 
                 <div class="d-flex flex-column ml-3">
@@ -475,17 +478,17 @@ $this->title = 'Trang chủ';
 <!-- Su kien -->
 <section data-aos="fade-up" data-aos-duration="1500" class="text-center p-5">
     <button type="button" class="btn btn-view-more btn-linear">
-        Xem thêm ➜
+        Xem tất cả ➜
     </button>
 </section>
 <!-- Xem them -->
 
-<div data-aos="fade-up" data-aos-duration="1500" style="margin-top: 38px;" class="container-fluid p-0 py-5">
-    <div id="sliderCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+<div data-aos="fade-up" data-aos-duration="1500" class="container-fluid p-0 py-5">
+    <div id="sliderEvent" class="carousel slide" data-ride="carousel" data-interval="3000">
         <ol class="carousel-indicators">
-            <li data-target="#sliderCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#sliderCarousel" data-slide-to="1"></li>
-            <li data-target="#sliderCarousel" data-slide-to="2"></li>
+            <li data-target="#sliderEvent" data-slide-to="0" class="active"></li>
+            <li data-target="#sliderEvent" data-slide-to="1"></li>
+            <li data-target="#sliderEvent" data-slide-to="2"></li>
         </ol>
 
         <div class="carousel-inner">
@@ -502,13 +505,13 @@ $this->title = 'Trang chủ';
             </div>
         </div>
 
-        <a class="carousel-control-prev" href="#sliderCarousel" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#sliderEvent" role="button" data-slide="prev">
             <div class="banner-icons">
                 <i class="fas fa-chevron-left"></i>
             </div>
         </a>
 
-        <a class="carousel-control-next" href="#sliderCarousel" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#sliderEvent" role="button" data-slide="next">
             <div class="banner-icons">
                 <i class="fas fa-chevron-right"></i>
             </div>
@@ -516,7 +519,10 @@ $this->title = 'Trang chủ';
     </div>
 </div>
 
-<section data-aos="fade-up" data-aos-duration="1500" class="tieuDiem container-fluid px-5 mt-5" style="max-height: 700px">
+<!-- Hoat dong noi bat -->
+
+<section data-aos="fade-up" data-aos-duration="1500" class="tieuDiem container-fluid px-5 mt-5"
+    style="max-height: 700px">
     <div class="text-center py-5">
         <p class="title-dark">Hoạt động nổi bật</p>
     </div>
@@ -648,18 +654,15 @@ $this->title = 'Trang chủ';
     </div>
 
 </section>
-<!-- Xem them    background-image: url(./Images/hoatiet_1.png);
-    background-repeat: no-repeat;
-    background-position: 0px -15px;
-    background-size: contain;
-    height: 184px;
-    transform: scale(1); -->
+<!-- Hoat dong noi bat -->
+
+<!-- Xem them -->
 <section data-aos="fade-up" data-aos-duration="1500" class="text-center p-5">
     <button type="button" class="btn btn-view-more btn-linear">
         Xem thêm ➜
     </button>
 </section>
-
+<!-- Xem them -->
 
 
 <script>
