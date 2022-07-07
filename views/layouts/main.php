@@ -74,7 +74,7 @@ $(document).ready(function() {
                     },
                 },
             ],
-            speed: 1200,
+            speed: 800,
             autoplay: true,
             autoplaySpeed: 2000,
         });
@@ -84,10 +84,9 @@ $(document).ready(function() {
             slidesToScroll: 1,
             infinite: false,
             arrows: true,
-            draggable: false,
+            draggable: true,
             prevArrow: `<button type='button' class='hst-slick-prev hst-slick-arrow'><i class="fas fa-chevron-left"></i></button>`,
             nextArrow: `<button type='button' class='hst-slick-next hst-slick-arrow'><i class="fas fa-chevron-right"></i></button>`,
-            // dots: true,
             responsive: [
                 {
                     breakpoint: 1024,
@@ -102,7 +101,9 @@ $(document).ready(function() {
                     },
                 },
             ],
-            speed: 1200,
+            speed: 800,
+            swipeToSlide: true,
+            // touchMove: false,
 
         });
 
@@ -129,7 +130,7 @@ $(document).ready(function() {
                     },
                 },
             ],
-            speed: 1200,
+            speed: 800,
             // autoplay: true,
             // autoplaySpeed: 2000,
         });
@@ -161,7 +162,7 @@ $(document).ready(function() {
                     },
                 },
             ],
-            speed: 1200,
+            speed: 800,
             // autoplay: true,
             // autoplaySpeed: 2000,
         });
@@ -191,7 +192,7 @@ $(document).ready(function() {
                     },
                 },
             ],
-            speed: 1200,
+            speed: 800,
             // autoplay: true,
             // autoplaySpeed: 2000,
         });

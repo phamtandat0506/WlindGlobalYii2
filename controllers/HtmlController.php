@@ -28,4 +28,12 @@ class HtmlController extends Controller {
     public function actionWsun() {
         return $this->render('wsun');
     }
+
+    public function actionContact() {
+        return $this->render('contact');
+    }
+    
+    public function actionClub() {
+        return $this->render('club');
+    }
 }
