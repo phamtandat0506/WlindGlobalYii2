@@ -98,8 +98,8 @@
 /* btn view */
 .btn-view {
   width: 120px;
-  font-weight: 400;
-  font-size: 11px;
+  font-weight: 400 !important;
+  font-size: 16px !important;
   position: relative;
 }
 .btn-view::before {
@@ -114,6 +114,26 @@
   background-color: #ddb874;
   border-radius: 50px;
 }
+
+.btn-view-more {
+  width: 272px;
+  height: 50px;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  line-height: 30px !important;
+}
+
+.btn-linear {
+  color: #343b4b !important;
+  background: linear-gradient(
+    90deg,
+    rgba(220, 183, 112, 1) 0%,
+    rgba(225, 190, 132, 1) 50%,
+    rgba(236, 212, 168, 1) 100%
+  ) !important;
+  border: none !important;
+}
+
 /* btn view */
 
 /* Override css */
@@ -129,17 +149,6 @@
     rgba(236, 212, 168, 1) 66%,
     rgba(250, 229, 198, 1) 100%
   );
-}
-
-.btn-linear {
-  color: #343b4b !important;
-  background: linear-gradient(
-    90deg,
-    rgba(220, 183, 112, 1) 0%,
-    rgba(225, 190, 132, 1) 50%,
-    rgba(236, 212, 168, 1) 100%
-  ) !important;
-  border: none !important;
 }
 
 iframe {
@@ -172,16 +181,6 @@ iframe {
 }
 /* Bread Crumb */
 
-/* btn view-more */
-.btn-view-more {
-  width: 272px;
-  height: 50px;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
-}
-/* btn view-more */
-
 /* SLIDER */
 .container {
   margin-top: 40px;
@@ -206,6 +205,9 @@ iframe {
 /* SLIDER */
 
 /* FOOTER */
+.footer {
+  max-height: 1920px;
+}
 .logo-footer {
   max-width: 365px;
   max-height: 160px;
@@ -990,3 +992,24 @@ textarea {
   resize: none !important;
 }
 /* Contact */
+
+/* Content Border Line */
+.border-line {
+  border: 3px solid #141e33;
+  border-radius: 6px;
+  padding: 50px 10px;
+  background-color: #fff;
+}
+
+.border-line::after {
+  content: "";
+  height: 3px;
+  background-color: #141e33;
+  width: 200%;
+  position: absolute;
+  top: 60%;
+  left: -12%;
+  z-index: -1;
+}
+
+/* Content Border Line */

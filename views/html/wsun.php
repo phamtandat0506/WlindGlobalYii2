@@ -37,14 +37,15 @@ $this->title = 'WSUN';
 
 <!-- Gioi thieu -->
 <section data-aos="fade-up" data-aos-duration="1500" class="px-5">
-    <div class="text-center pb-5">
+    <div class="text-center p-5">
         <p class="title-dark">Giới thiệu <?=$this->title?></p>
     </div>
 
     <div class="row d-flex flex-row justify-content-between mt-4 py-3 px-5">
-        <div class="intro-content col-md-7 col-lg-7 col-xl-7 mt-4">
-            <h4><?=$this->title?></h4>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+        <div class="border-line col-md-7 mt-4">
+            <h4 class="pb-4"><?=$this->title?></h4>
+            <p>There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered
                 alteration in some form, by injected humour, or randomised words which don't look even slightly
                 believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
                 anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
@@ -55,16 +56,16 @@ $this->title = 'WSUN';
             </p>
         </div>
 
-        <div class="col-md-4 col-lg-4 col-xl-4 mt-4">
+        <div class="col-md-4 mt-4">
             <img src="./Images/Asset.png" alt="" class="w-100"
-                style="max-width: 442px; max-height: 633px;">
+                style="max-width: 442px; max-height: 633px; margin-top: -100px;">
         </div>
     </div>
 </section>
 <!-- Gioi thieu -->
 
 <!-- Xem them -->
-<section class="text-center p-5">
+<section data-aos="fade-up" data-aos-duration="1500" class="text-center p-5">
     <button type="button" class="btn btn-view-more btn-linear">
         Xem thêm <?=$this->title?>
     </button>

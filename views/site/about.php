@@ -72,7 +72,7 @@ $this->title = "Giới Thiệu";
 
     <!-- Gioi thieu va Nha Sang Lap -->
     <section data-aos="fade-up" data-aos-duration="1500" class="my-bg-2 text-light px-3 pb-5">
-        <div class="text-center">
+        <div class="text-center p-5">
             <p class="title-dark">Giới thiệu WGH</p>
         </div>
 
@@ -114,7 +114,7 @@ $this->title = "Giới Thiệu";
             </div>
         </div>
 
-        <div class="text-center">
+        <div class="text-center p-5">
             <p class="title-dark">Nhà sáng lập</p>
         </div>
 

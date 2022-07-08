@@ -15,11 +15,11 @@ $this->title = 'Trang chủ';
         </ol>
 
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item">
                 <img src="./Images/slide_home_1.png" class="img-slider d-block w-100" alt="..." />
             </div>
 
-            <div class="carousel-item">
+            <div class="carousel-item active">
                 <img src="./Images/slide_home_2.jpg" class="img-slider d-block w-100" alt="..." />
             </div>
 
@@ -129,7 +129,7 @@ $this->title = 'Trang chủ';
 
 <!-- He sinh thai -->
 <section data-aos="fade-up" data-aos-duration="1500" class="hst text-light mt-5" style="max-height: 680px;">
-    <div class="text-center">
+    <div class="text-center pb-4">
         <p class="title-dark">Hệ sinh thái WGH</p>
     </div>
 
@@ -476,7 +476,7 @@ $this->title = 'Trang chủ';
 </section>
 
 <!-- Su kien -->
-<section data-aos="fade-up" data-aos-duration="1500" class="text-center p-5">
+<section data-aos="fade-up" data-aos-duration="1500" class="text-center">
     <button type="button" class="btn btn-view-more btn-linear">
         Xem tất cả ➜
     </button>
@@ -521,9 +521,9 @@ $this->title = 'Trang chủ';
 
 <!-- Hoat dong noi bat -->
 
-<section data-aos="fade-up" data-aos-duration="1500" class="tieuDiem container-fluid px-5 mt-5"
+<section data-aos="fade-up" data-aos-duration="1500" class="container-fluid px-5"
     style="max-height: 700px">
-    <div class="text-center py-5">
+    <div class="text-center pb-5">
         <p class="title-dark">Hoạt động nổi bật</p>
     </div>
 

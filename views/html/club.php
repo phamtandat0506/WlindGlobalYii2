@@ -24,7 +24,7 @@ $this->title = 'Liên Hệ';
 <!-- BreadCrumb -->
 
 
-<div class="text-center pb-5">
+<div data-aos="fade-up" data-aos-duration="1500" class="text-center pb-5">
     <p class="title-dark">Giới thiệu WLIN GLOBAL</p>
 </div>
 <!-- Gioi thieu -->
@@ -54,12 +54,12 @@ $this->title = 'Liên Hệ';
         </ol>
     </div>
 
-    <div class="banner ">
+    <div class="banner pt-5">
         <img class="banner-img w-100" src="https://www.wlin.com.vn/images/banner_risemount.jpg" alt="">
     </div>
 
     <div data-aos="fade-up" data-aos-duration="1500" class="row d-flex flex-row justify-content-between py-3 px-5">
-        <div class="col-md-8 col-lg-8 col-xl-8 mt-4">
+        <div class="col-md-8 col-lg-8 col-xl-8 mt-5">
             <h4>Sứ mệnh của WLIN</h4>
             <p>Sứ mệnh của WLIN là kết nối những nữ lãnh đạo trên toàn thế giới lại với nhau để cùng đem đến những điều
                 tốt đẹp không chỉ cho bản thân mỗi người, mỗi gia đình hay mỗi quốc gia mà còn xây dựng lên một thế giới
@@ -95,7 +95,6 @@ $this->title = 'Liên Hệ';
                 Club (Câu lạc bộ): Là một thành viên trong hệ thống của WLIN, các Club với số lượng thành viên không
                 giới hạn nhưng các thành viên không được trùng ngành nghề kinh doanh và mỗi thành viên chỉ được đăng ký
                 kinh doanh một ngành nghề trong Club mình sinh hoạt.
-
             </li>
             <li>
                 Họp mặt hàng tuần: Các Club của WLIN sẽ có buổi sinh hoạt vào 11h30-13h30 trưa một ngày trong tuần
@@ -103,13 +102,11 @@ $this->title = 'Liên Hệ';
                 trong Club nhằm giúp các thành viên mở rộng các mối quan hệ, tạo dựng niềm tin và sự hiểu biết cũng như
                 gia tăng cơ hội kết nối kinh doanh đồng thời tiếp thu những kinh nghiệm, kiến thức mới do các thành viên
                 trong Club chia sẻ.
-
             </li>
             <li>
                 Hoạt động đào tạo: Các thành viên của WLIN thường xuyên được tham gia các khóa đào tạo do WLIN tổ
                 chức nhằm nâng cao kỹ năng nói chuyện trước công chúng, kỹ năng xây dựng hình ảnh bản thân, kỹ năng xây
                 dựng các mối quan hệ, kỹ năng làm đẹp và các kỹ năng quản lý, điều hành, lãnh đạo…
-
             </li>
             <li>
                 Hoạt động tư vấn: WLIN xây dựng một Ban tư vấn quốc tế nhằm giúp các thành viên của WLIN được hỗ trợ
@@ -117,18 +114,16 @@ $this->title = 'Liên Hệ';
                 mảng: Văn hóa giao tiếp quốc tế, Ngôn Ngữ Quốc Tế, Luật Quốc Tế. WLIN có hệ thống và công cụ để tư vấn,
                 kết nối và hỗ trợ để các thành viên trong mạng lưới của WLIN không cảm thấy xa lạ, bỡ ngỡ khi đến các
                 quốc gia có mạng lưới của WLIN tại đó.
-
             </li>
             <li>
                 Các hoạt động sự kiện của WLIN: WLIN thường xuyên tổ chức sự kiện trong và ngoài nước để các thành
                 viên của WLIN có cơ hội kết nối với cộng đồng nữ lãnh đạo đến từ nhiều lĩnh vực, nhiều quốc gia khác
                 nhau.
-
             </li>
         </ol>
     </div>
     <div data-aos="fade-up" data-aos-duration="1500"
-        class="row d-flex flex-row justify-content-around align-items-center mt-5">
+        class="row d-flex flex-row justify-content-around align-items-center    ">
         <div class="col-md-3 col-lg-3 col-xl-3 ">
             <img class="banner-img w-100 py-4" src="./Images/NTH-2.png" alt="">
         </div>
@@ -205,38 +200,39 @@ $this->title = 'Liên Hệ';
         <div data-aos="fade-up" data-aos-duration="1500" class="banner mt-5">
             <img class="banner-img w-100" src="./Images/club/chart-3.png" alt="">
         </div>
-        2.1. Chủ tịch CLB:<br />
-        2.1.1. Điều hành CLB của mình nhằm giúp CLB phát triển một cách tốt nhất<br />
-        2.1.2. Duy trì văn hoá của CLB dựa trên nền tảng văn hoá của WLIN<br />
-        2.1.3. Quyết định việc kết nạp các vị trí Phó Chủ tịch và Thành viên của CLB<br />
-        2.1.4. Đưa ra đường lối sinh hoạt của CLB.<br />
-        2.2. Phó Chủ tịch: Các Phó chủ tịch phải có trách nhiệm giới thiệu và phát triển 10 thành viên mới không trùng
-        ngành hàng với những thành viên đã có trong mạng lưới để trở thành thành viên chính thức của WLIN trong một năm
-        nhiệm kì của mình.<br />
-        2.2.1. Phó Chủ Tịch Thường Trực: Hỗ trợ Chủ tịch trong công tác quản lý, điều hành Club. Là người có sự chuẩn
-        mực trong hình ảnh và uy tín xã hội. Thay mặt chủ tịch quyết định các vấn đề của CLB khi chủ tịch vắng
-        mặt.<br />
-        2.2.2. Phó chủ tịch phụ trách kết nối và thẩm định hội viên: Là bộ phận phụ trách giới thiệu và đón tiếp khách
-        mời khi họ tới tham dự buổi sinh hoạt của CLB. Cung cấp thông tin về WLIN và CLB cho khách mời tới tham gia, hỗ
-        trợ khách mời kết nối với các thành viên trong mạng lưới, chăm sóc khách mời để khách mời dễ hòa nhập. Phụ trách
-        xét duyệt đơn đăng ký tham gia của thành viên, tiếp nhận những phản hồi từ phía các thành viên về hoạt động của
-        WLIN và CLB để kịp thời đề xuất những điều chỉnh, thay đổi cho kịp thời nhằm giúp cho WLIN phát triển mạnh hơn
-        và hoàn thiện hơn.<br />
-        2.2.3. Phó chủ tịch phụ trách tổ chức sự kiện cho CLB: Là bộ phận xây dựng nội dung cũng như tổ chức các sự kiện
-        cho CLB được hiệu quả hơn và góp phần hỗ trợ gắn kết các thành viên hơn. Chuẩn bị cho công tác setup thứ 5 hàng
-        tuần như máy chiếu, loa đài và chuẩn bị quà sinh nhật cho các hội viên
-        2.2.4. Phó chủ tịch phụ trách phong trào: Phụ trách tạo năng lượng vào 5′ khởi động đầu tiên để xoá tan khoảng
-        cách và tạo sự gắn kết cho các thành viên.<br />
-        2.2.5. Phó chủ tịch phụ trách nội dung: Chuyên trách về các ý tưởng Nội dung chia sẻ hàng tuần hiệu quả cho các
-        thành viên, kiểm duyệt các Nội dung của những người đăng ký thuyết trình<br />
-        2.3. Bộ phận hỗ trợ:<br />
-        2.3.1. Thư ký / Thủ Quỹ: Là người phụ trách xây dựng chương trình sinh hoạt tuần, thông tin cho các thành viên
-        về nội dung, lịch trình, địa điểm sinh hoạt của CLB. Phụ trách thu phí tham dự tuần và thanh toán các phí sinh
-        hoạt tuần cho địa điểm được CLB chọn để sinh hoạt.<br />
-        2.3.2. Người điều hành buổi sinh hoạt tuần: Là người dẫn dắt và kết nối các buổi họp mặt hàng tuần, giữ lịch
-        trình của sự kiện, nhắc nhở các thành viên tham gia kết nối trong sự kiện.<br />
+
+        <div data-aos="fade-up" data-aos-duration="1500" class="pb-5">
+            2.1. Chủ tịch CLB:<br />
+            2.1.1. Điều hành CLB của mình nhằm giúp CLB phát triển một cách tốt nhất<br />
+            2.1.2. Duy trì văn hoá của CLB dựa trên nền tảng văn hoá của WLIN<br />
+            2.1.3. Quyết định việc kết nạp các vị trí Phó Chủ tịch và Thành viên của CLB<br />
+            2.1.4. Đưa ra đường lối sinh hoạt của CLB.<br />
+            2.2. Phó Chủ tịch: Các Phó chủ tịch phải có trách nhiệm giới thiệu và phát triển 10 thành viên mới không trùng
+            ngành hàng với những thành viên đã có trong mạng lưới để trở thành thành viên chính thức của WLIN trong một năm
+            nhiệm kì của mình.<br />
+            2.2.1. Phó Chủ Tịch Thường Trực: Hỗ trợ Chủ tịch trong công tác quản lý, điều hành Club. Là người có sự chuẩn
+            mực trong hình ảnh và uy tín xã hội. Thay mặt chủ tịch quyết định các vấn đề của CLB khi chủ tịch vắng
+            mặt.<br />
+            2.2.2. Phó chủ tịch phụ trách kết nối và thẩm định hội viên: Là bộ phận phụ trách giới thiệu và đón tiếp khách
+            mời khi họ tới tham dự buổi sinh hoạt của CLB. Cung cấp thông tin về WLIN và CLB cho khách mời tới tham gia, hỗ
+            trợ khách mời kết nối với các thành viên trong mạng lưới, chăm sóc khách mời để khách mời dễ hòa nhập. Phụ trách
+            xét duyệt đơn đăng ký tham gia của thành viên, tiếp nhận những phản hồi từ phía các thành viên về hoạt động của
+            WLIN và CLB để kịp thời đề xuất những điều chỉnh, thay đổi cho kịp thời nhằm giúp cho WLIN phát triển mạnh hơn
+            và hoàn thiện hơn.<br />
+            2.2.3. Phó chủ tịch phụ trách tổ chức sự kiện cho CLB: Là bộ phận xây dựng nội dung cũng như tổ chức các sự kiện
+            cho CLB được hiệu quả hơn và góp phần hỗ trợ gắn kết các thành viên hơn. Chuẩn bị cho công tác setup thứ 5 hàng
+            tuần như máy chiếu, loa đài và chuẩn bị quà sinh nhật cho các hội viên
+            2.2.4. Phó chủ tịch phụ trách phong trào: Phụ trách tạo năng lượng vào 5' khởi động đầu tiên để xoá tan khoảng
+            cách và tạo sự gắn kết cho các thành viên.<br />
+            2.2.5. Phó chủ tịch phụ trách nội dung: Chuyên trách về các ý tưởng Nội dung chia sẻ hàng tuần hiệu quả cho các
+            thành viên, kiểm duyệt các Nội dung của những người đăng ký thuyết trình<br />
+            2.3. Bộ phận hỗ trợ:<br />
+            2.3.1. Thư ký / Thủ Quỹ: Là người phụ trách xây dựng chương trình sinh hoạt tuần, thông tin cho các thành viên
+            về nội dung, lịch trình, địa điểm sinh hoạt của CLB. Phụ trách thu phí tham dự tuần và thanh toán các phí sinh
+            hoạt tuần cho địa điểm được CLB chọn để sinh hoạt.<br />
+            2.3.2. Người điều hành buổi sinh hoạt tuần: Là người dẫn dắt và kết nối các buổi họp mặt hàng tuần, giữ lịch
+            trình của sự kiện, nhắc nhở các thành viên tham gia kết nối trong sự kiện.<br />
+        </div>
     </div>
-
-
 </section>
 <!-- Mang luoi WLIN CLUB -->
