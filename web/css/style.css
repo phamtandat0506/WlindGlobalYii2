@@ -1,9 +1,9 @@
-.navbar-nav {
+/* .navbar-nav {
   display: flex;
   flex-direction: row;
   gap: 0px 30px;
   text-align: left;
-}
+} */
 .navbar-nav .nav-item .nav-link:hover {
   color: #ffc54d !important;
 }
